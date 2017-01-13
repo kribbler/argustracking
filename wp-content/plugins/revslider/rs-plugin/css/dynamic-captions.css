@@ -1,0 +1,35 @@
+.tp-caption.argus_black {
+color:#000000;
+text-shadow:none;
+background-color:transparent;
+text-decoration:none;
+display:block;
+float:left;
+max-width:60%;
+white-space:normal !important;
+font-family:"Source Sans Pro";
+font-style:italic;
+font-weight:300;
+font-size:18px;
+border-width:0px;
+border-color:rgb(0, 0, 0);
+border-style:none;
+}
+
+.tp-caption.argus_black_italic {
+color:#000000;
+text-shadow:none;
+background-color:transparent;
+text-decoration:none;
+display:block;
+max-width:60%;
+white-space:normal !important;
+font-family:"Source Sans Pro";
+font-style:italic;
+font-weight:400;
+font-size:16px;
+border-width:0px;
+border-color:rgb(0, 0, 0);
+border-style:none;
+}
+

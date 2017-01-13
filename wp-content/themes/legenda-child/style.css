@@ -1,0 +1,541 @@
+/*
+ Theme Name: LEGENDA Child - 8theme WordPress theme
+Theme URI: http://8theme.com/
+Author: 8theme
+Author URI: http://themeforest.net/user/8theme
+Description: ThemeForest Premium Theme
+Version: 1.0
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template:       legenda
+*/
+
+@import url("../legenda/style.css");
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,400italic,500italic,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,700,600,600italic,700italic);
+
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+body {
+	font-family: 'Ubuntu', sans-serif;
+	color: #52525f;
+	font-size: 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: 0;
+}
+h1{
+	font-size: 45px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	text-transform: none;
+	color: #202020;
+	line-height: 55px;
+}
+
+h2{
+	text-transform: none;
+	color: #404752;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+h3{
+	text-transform: none;
+	color: #404752;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+h4{
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	color: #525260;
+	text-transform: none;
+}
+
+.fixed-header {
+	background-color: #2d2e2e;
+}
+.fixed-header .menu > li > a, .main-nav .menu > li > a {
+	font-family: Ubuntu, sans-serif;
+	color: #fff;
+	font-size: 14px;
+	text-transform: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.top-cart-disabled .logo {
+	width: auto !important;
+}
+
+.client_login {
+	padding-left: 15px;
+	background: url(images/client-login.png) left center no-repeat;
+}
+.header_top_right {
+	text-align: right;
+}
+.header_top_right a {
+	color: #fff;
+	margin-left: 15px;
+}
+
+.header-wrapper {
+	background: #2d2e2e;
+}
+
+.header2 {
+	margin-top: 0;
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+
+.main-nav, .main-nav .double-border {
+	border: none;
+}
+
+.center_cols {
+	text-align: center;
+}
+
+.white {
+	color: #fff;
+}
+
+.img_go_down {
+	margin-top: 40px !important;
+}
+.huge_red {
+	color: #f50000;
+	font-weight: 800;
+	font-family: "Source Sans Pro";
+	font-size: 50px;
+	display: block;
+	text-align: left;
+	padding-left: 50px;
+	line-height: 50px;
+}
+
+.legend1 {
+	color: #fff;
+    display: block;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.full_width, #home_block01, #home_block03, #home_block06 {
+	margin-top: 40px;
+	padding-top: 0;
+}
+
+#home_block02, #home_block04 {
+	margin-top: 40px;
+	padding: 60px 0;
+	background-color: #2d2e2e;
+	color: #d6d6d6;
+}
+
+#home_block05 {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	background: #eeeeee;
+}
+
+#all_footer {
+	background-color: #2d2e2e;
+	color: #b9b9c8;
+	padding: 40px 0 0px 0;
+	font-family: "Ubuntu";
+}
+
+#all_footer h2 {
+	font-weight: 400;
+	color: #fff;
+	font-size: 17px;
+	font-family: "Source Sans Pro";
+}
+
+.mt_40 {
+	margin: 40px 0;
+}
+
+.bg_grayed {
+	background-color: #f4f4f4;
+}
+
+.bg_grayed h1 {
+	color: #212121;
+}
+
+h1.h1_roi {
+	background: url(images/icon_roi_calculator.png) left center no-repeat;
+	padding-left: 40px;
+	height: 34px;
+	line-height: 34px;
+}
+
+.price_column {
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding: 20px;
+}
+.price_left {
+	background-color: #dfdfdf;
+	margin-top: 45px;
+}
+
+.price_middle {
+	background-color: #fb0000;
+	color: #fff;
+}
+
+.price_right {
+	background-color: #c0c0c0;
+	margin-top: 45px;
+}
+
+.price_column hr, .pricing_table hr {
+	border: 1px solid #fff;
+	margin: 10px 0;
+}
+
+.price_middle h2 {
+	color: #fff;
+}
+
+.price_amount {
+	font-weight: 700 !important;
+	color: #2d2e2e;
+	font-size: 20px;
+}
+
+.big_price {
+	font-size: 30px;
+}
+
+.per_month {
+	font-weight: 500;
+}
+
+.price_middle .per_month, #th_middle .per_month {
+	color: #fff;
+}
+
+.red_button {
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background-color: #fe0000;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 25px;
+	text-align: center;
+	display: block;
+	width: 100px;
+	margin: 20px auto;
+	font-size: 20px;
+}
+
+.red_button:hover {
+	color: #fff;
+}
+
+.red_button2 {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #fe0000;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 25px;
+	text-align: center;
+	display: inline-block;
+	width: auto;
+	margin: 20px auto;
+	font-size: 14px;
+}
+
+.red_button2:hover {
+	color: #fff;
+}
+
+.white_button {
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background-color: #fff;
+	color: #ff0000;
+	text-decoration: none;
+	padding: 10px 25px;
+	text-align: center;
+	display: block;
+	width: 100px;
+	margin: 20px auto;
+	font-size: 20px;
+}
+
+/* begin table pricing */
+
+.pricing_table td {
+	padding: 10px 20px;
+	vertical-align: middle;
+	position: relative;
+}
+.pricing_table .gray1 {
+	background-color: #e5e5e5;
+	border-bottom: 1px solid #fff;
+}
+
+.pricing_table .gray2 {
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #fff;
+}
+
+.pricing_table h2 {
+	font-weight: 500;
+	text-align: center;
+	font-size: 30px;
+}
+
+.pricing_table h4, .pricing_table p {
+	margin-bottom: 5px;
+}
+
+.pricing_table #th_middle h2 {
+	color: #fff;
+}
+
+.pricing_table #th_middle .price_amount {
+	color: #fff;
+}
+
+.tr_hidden {
+	display: none;
+}
+
+.toggle_row {
+	cursor: pointer;
+	background: url(images/red_plus.png) center no-repeat;
+	height: 27px;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    width: 27px;
+}
+.toggled {
+	background: url(images/red_minus.png) center no-repeat !important;
+}
+
+.tr_hidden td {
+	color: #79796a;
+}
+#th_left {
+	background-color: #dfdfdf;
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	border-top-left-radius: 15px;
+	padding: 20px;
+}
+
+#th_middle, #tf_middle {
+	padding: 20px;
+	background-color: #fe0000;
+}
+
+#th_right {
+	padding: 20px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-radius-topright: 15px;
+	border-top-right-radius: 15px;
+	background-color: #c0c0c0;
+}
+
+#tf_left {
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-bottom-left-radius: 15px;
+	background-color: #dfdfdf;
+}
+
+#tf_right {
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	border-bottom-right-radius: 15px;
+	background-color: #c0c0c0;
+}
+/* end table pricing */
+
+/*start tabby */
+.tabsubtitle {
+	font-size: 12px;
+	color: #fff;
+}
+
+.responsive-tabs .responsive-tabs__list__item {
+	background: #2d2e2e !important;
+	color: #fff !important;
+	margin-right: 0 !important;
+	border: 0 !important;
+	-webkit-border-top-left-radius: 0px !important;
+	-webkit-border-top-right-radius: 0px !important;
+	-moz-border-radius-topleft: 0px !important;
+	-moz-border-radius-topright: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	width: 22% !important;
+}
+
+.responsive-tabs .responsive-tabs__list__item a {
+	color: #fff !important;
+}
+.responsive-tabs .responsive-tabs__panel {
+	background: none !important;
+	border: 0 !important;
+	padding: 20px 0 0 !important;
+}
+
+.responsive-tabs .responsive-tabs__list__item--active, .responsive-tabs .responsive-tabs__list__item--active:hover, .responsive-tabs .responsive-tabs__list__item:hover {
+	padding-bottom: 10px !important;
+	background: #f50000 !important;
+	color: #fff !important;
+}
+
+.responsive-tabs .responsive-tabs__list__item--active:after, .responsive-tabs .responsive-tabs__list__item--active:hover:after,
+.responsive-tabs .responsive-tabs__list__item:hover:after {
+	content: url(images/arrow_red-down.png) !important;
+	width: 17px;
+	height: 8px;
+	position: absolute;
+	top: 51px;
+	left: 24px;
+}
+/* end tabby styling */
+
+/*begin carousel styling */
+.slider-container .owl-next, .slider-container .owl-prev, .slider-container .slider-prev, .slider-container .slider-next {
+	margin-top: -65px;
+}
+.slider-container .owl-prev::before, .slider-container .slider-prev::before {
+	content: url(images/navigation_left_gray.png);
+}
+
+.slider-container .owl-next::before, .slider-container .slider-next::before {
+	content: url(images/navigation_right_gray.png);
+}
+
+/*end carousel styling */
+
+#menu-case-studies-menu {
+	list-style: none;
+	padding: 0;
+}
+
+#menu-case-studies-menu li {
+	display: inline-block;
+}
+#menu-case-studies-menu li a{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	background: #f6f6f6;
+	color: #333;
+	padding: 10px 25px;
+}
+
+#menu-case-studies-menu .current-menu-item a {
+	color: red;
+}
+
+.case_rows .span4 {
+	margin-bottom: 30px;
+}
+.portfolio-image a{
+	text-align: center;
+	display: block;
+
+}
+
+.header_roi {
+	position: relative;
+}
+
+#header_roi_calcuator {
+	position: absolute;
+	right: 10px;
+	background: #f80000 url(images/header_roi.png) 10px center no-repeat;
+	color: #fff;
+	padding: 5px 20px 5px 35px;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	font-size: 10px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.small_icons {
+	list-style-type: none;
+}
+
+.small_icons li {
+	padding-left: 40px;
+	display: block;
+	width: 40%;
+	float: left;
+	padding-bottom: 15px;
+}
+.icon_01 {
+	background: url(images/icon_01.png) left center no-repeat;
+}
+
+.icon_02 {
+	background: url(images/icon_02.png) left center no-repeat;
+}
+
+.icon_03 {
+	background: url(images/icon_03.png) left center no-repeat;
+}
+.icon_04 {
+	background: url(images/icon_04.png) left center no-repeat;
+}
+.icon_05 {
+	background: url(images/icon_05.png) left center no-repeat;
+}
+.icon_06 {
+	background: url(images/icon_06.png) left center no-repeat;
+}
+.icon_07 {
+	background: url(images/icon_07.png) left center no-repeat;
+}
+.icon_08 {
+	background: url(images/icon_08.png) left center no-repeat;
+}
+#header_roi_calcuator span {
+	font-size: 12px;
+	display: block;
+}
+@media (max-width: 979px) {
+	.header_top_right {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+
+}
